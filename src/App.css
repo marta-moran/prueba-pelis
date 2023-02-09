@@ -32,7 +32,35 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  position: sticky;
+  margin-bottom: 1.1em;
+
+}
+
+
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: 700;
+  border-right: 2px solid rgb(237, 40, 129);
+  padding-right: 0.6em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(237, 40, 129);
+  font-size: 1.1em;
+  padding: 0 0.2em;
+  font-weight: 400;
+}
+
+.nav a:visited {
+  color: rgb(237, 40, 129);
 }
