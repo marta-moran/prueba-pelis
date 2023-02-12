@@ -1,0 +1,27 @@
+.main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-info img {
+    width: 50%;
+}
+
+.main-info:nth-child(1) {
+    width: 50%;
+}
+
+.single-film h3,
+h4 {
+    font-weight: 400;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.details p {
+    padding-right: 2em;
+}

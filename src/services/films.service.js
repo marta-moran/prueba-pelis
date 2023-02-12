@@ -1,10 +1,8 @@
-import axios from 'axios'
+import InitAxios from "./init.axios"
 
-class FilmsAxios {
+class FilmsAxios extends InitAxios {
     constructor() {
-        this.api = axios.create({
-            baseUrl: `https://imdb-api.com/en/API/`
-        })
+        super()
     }
 
     printURl() {

@@ -13,7 +13,7 @@ const FilmsContent = () => {
             <h2>Pelis más populares</h2>
             <div className='card-container'>
                 {
-                    films.items.map((film, index) => index < counter ? <Link to={`/films/${film.id}`}><Film key={index} element={film}></Film></Link> : null)
+                    films.items.map((film, index) => index < counter ? <Link key={index} to={`/films/${film.id}`}><Film element={film}></Film></Link> : null)
 
                 }
             </div>
